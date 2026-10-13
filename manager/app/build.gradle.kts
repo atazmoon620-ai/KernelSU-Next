@@ -25,6 +25,10 @@ apksign {
 android {
     namespace = "com.rifsxd.ksunext"
 
+    defaultConfig {
+        applicationId = "me.weishu.kernelsu"
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
